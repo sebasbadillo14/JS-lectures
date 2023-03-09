@@ -27,8 +27,9 @@ let result = months.includes('december'); //this works in linear arrays like mon
 
 // .some() , is ideal for an array type object
 result = kart.some(function(product){
-    return product.name === 'Cooler '
+    return product.name === 'Cooler'
 })
+console.log(result);
 
 // Arrow function
 result = kart.some(product => product.name === 'Cooler ');
